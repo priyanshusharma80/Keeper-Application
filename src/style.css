@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=Roboto&display=swap");
+* {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-section h1 {
+  font-weight: 400;
+}
+
+.header-section {
+  background-color: #f5ba13;
+  font-family: "McLaren", cursive;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+
+.note {
+  margin: 10px;
+  border-radius: 8px;
+  padding: 12px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.note h4 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.note p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
